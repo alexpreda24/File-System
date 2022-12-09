@@ -1,0 +1,35 @@
+Preda Ioan Alexandru-313CB
+Am implementat 2 arbori mari-unul de fisiere si unul de directoare,
+si inca un arbore de parinti.
+1.Touch:
+-este implementata de functia Inserarefiser care v a cauta in cei 2 arbori
+numele fiserului in directorul curent. Daca acesta este gasit se va mentiona
+ca Fisierul sau Directorul cu numele respectiv deja exista,iar daca nu se va
+insera in arborele de fisier la pozitia sa.
+2.Mkdir:
+-este implementata de functia Inseraredirector care v a cauta in cei 2 arbori
+numele directorul in directorul curent. Daca acesta este gasit se va mentiona
+ca Fisierul sau Directorul cu numele respectiv deja exista,iar daca nu se va
+insera in arborele de directoare la pozitia sa.
+3.Ls:
+-se va parcurge arborele de directoare si dupa cel de fisiere cu ajutorul 
+functiei SRD
+4.Rm:
+-se cauta fisierul in arborele de fisiere,in functie de parinte iar daca s-a
+gasit atunci se va sterge din arborele de fisiere,iar daca nu vom afisa textul
+"Fiserul nu exista"
+5.Rmdir:
+-se cauta directorul in arborele de directoare,in functie de parinte iar daca s-a
+gasit atunci se va sterge din arborele de directoare,iar daca nu vom afisa textul
+"Directorul nu exista"
+6.Cd:
+-daca dupa cd este un text atunci vom cauta directorul in arborele de directoare,
+care are ca parinte aux,iar daca dupa cd este ".." atunci aux primeste aux->par
+7.PWD:
+-in functia PWD vom face un vector de frecventa care va extrage fiecare parinte
+pana la root inclusiv iar mai apoi de la ultimul pana la primul dam printf
+8.Find:
+  -vom cauta in aroborele de fisiere sau de directoare daca exista fisierul/
+  directorul ,iar daca exista atunci vom afisa calea.
+
+Pe local am obtinut punctajul de 135 de puncte.
